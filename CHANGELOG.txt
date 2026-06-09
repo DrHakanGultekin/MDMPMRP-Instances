@@ -1,0 +1,4 @@
+Version 1.0
+- Initial public release.
+- 150 benchmark instances.
+- Includes 30 instance classes and 5 replications each.

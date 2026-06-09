@@ -1,0 +1,51 @@
+[GENERAL_DATA]
+v: 2
+M: 5000
+Activities NO: 12
+n: 7
+Primary Depot Index: 5
+DepotsNO: 3
+T: 14
+WHours: 8
+Max_Whours: 12
+Co: 10
+Cv: 200
+Pu: 50
+
+[COST_MATRIX]
+1 2 3 4 5 6 7
+0 8 4 8 8 4 12
+8 0 8 16 8 8 20
+4 8 0 12 4 4 12
+8 16 12 0 4 12 8
+8 8 4 12 0 8 16
+4 8 4 4 8 0 16
+12 20 12 8 16 16 0
+
+[TIME_MATRIX]
+1 2 3 4 5 6 7
+0 2 1 2 1 2 3
+2 0 2 2 2 3 1
+1 2 0 1 2 3 2
+2 2 1 0 3 3 1
+1 2 2 3 0 1 1
+2 3 3 3 1 0 4
+3 1 2 1 1 4 0
+
+[ACTIVITIES]
+Activity	Asset	Maintenance Time (hr)	Release Date	Due Date (Days)	Penalty - Late	Penalty - Early	Broken	TE
+1	3	5	0	7	10	1	1	0
+2	3	3	0	2	10	1	1	1
+3	2	2	0	5	20	1	2	0
+4	2	3	2	10	40	0	2	1
+5	1	1	0	9	5	0	3	0
+6	1	2	0	6	10	0	3	1
+7	4	3	0	7	40	7	4	0
+8	4	1	2	8	20	10	4	1
+9	4	2	0	11	10	5	0	1
+10	4	2	0	12	5	20	0	1
+11	1	2	4	14	10	8	0	1
+12	3	2	0	14	30	2	0	1
+13	5	0	0	0	0	0	0	0
+14	6	0	0	0	0	0	0	0
+15	7	0	0	0	0	0	0	0
