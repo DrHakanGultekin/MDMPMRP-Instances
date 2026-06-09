@@ -2,6 +2,11 @@ Benchmark Instances for the Multi-Depot Multi-Period Maintenance Routing Problem
 
 This dataset contains benchmark problem instances used for computational experiments. Each instance is stored in a structured text file format for easier access, reproducibility, and use with optimization and heuristic algorithms.
 
+If you use these benchmark instances, please cite:
+Dataset DOI:
+https://doi.org/10.5281/zenodo.20608543
+
+
 1. Dataset Contents
 -------------------
 Each text file represents one problem instance and contains the following sections:
